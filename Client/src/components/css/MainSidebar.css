@@ -1,0 +1,25 @@
+.SIdebar-div{
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    width: 20%;
+    position: static;
+    left: 0px;
+    top: 60px;
+    border-right: 1px solid rgb(202, 221, 241);
+    margin-right: 10px;
+}
+
+.SidebarMain-ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+}
+
+.Sidebar-li{
+    padding: 10px;
+    width: 100%;
+
+}

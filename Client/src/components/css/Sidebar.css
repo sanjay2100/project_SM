@@ -1,0 +1,33 @@
+.Sidebar{
+    padding: 0px;
+    position: sticky;
+    left: 0px;
+    background-color: rgb(205, 203, 203);
+    width: 15%;
+    height: 100vh;
+}
+
+.Sidebar-ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+}
+
+.Sidebar-li{
+    padding: 10px;
+    color: rgb(5, 4, 4);
+    font-weight: 600;
+    cursor: pointer;
+    
+}
+
+.Sidebar-li-active{
+    padding: 10px;
+    color: rgb(250, 248, 248);
+    font-weight: 600;
+    cursor: pointer;
+    background-color: rgb(248, 7, 7);
+}

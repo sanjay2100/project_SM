@@ -1,0 +1,50 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap');
+.Video-Block{
+    text-align: left;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.Player{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 750px;
+    gap: 30px;
+}
+
+.Title{
+    margin: 0px;
+    width: fit-content;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+}
+.Title-block{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.Desc{
+    margin: 0px;
+    width: fit-content;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Desc-block{
+    display: flex;
+    gap: 10px;
+
+}
+
+.User-block{
+    display: flex;
+    gap: 5px;
+    align-items: flex-end;
+    width: fit-content;
+}

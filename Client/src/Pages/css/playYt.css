@@ -1,0 +1,141 @@
+.Player-block{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    text-align: left;
+    margin: 20px;
+    
+}
+
+
+.Player-titleblock{
+    display: flex;
+    align-items: baseline;
+    gap: 40px;
+
+}
+
+.LikeBtn-avtive{
+    color: red;
+    display: flex ;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.Like-count{
+    margin: 0px;
+}
+
+.LikeBtn{
+    color: grey;
+    display: flex ;
+    gap: 10px;
+    cursor: pointer;
+
+}
+
+.YTPlayer video{
+    width: 800px;
+    height: 550px;
+}
+
+.Like-pTag{
+    margin: 0px;
+    cursor: pointer;
+
+}
+
+.fa-heart{
+    animation: fall 0.7s ease-in;
+    cursor: pointer;
+
+}
+
+@keyframes fall {
+
+    0%{
+        position: relative;
+        top:-20px;
+        opacity: 0%;
+
+    }
+    100%{
+        position: relative;
+        top:0px;
+        opacity:100%;
+    }
+    
+}
+
+@media only screen and(max-width) {
+    .Player-block{
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+        text-align: left;
+        margin: 20px;
+        align-items: center;
+        justify-content: center;
+        
+    }
+}
+.Player-Screen{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 93vh;
+    overflow: hidden;
+}
+
+.Player-Right{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    overflow: scroll;
+}
+
+.Side-Div{
+    display: flex;
+    gap: 10px;
+    pointer-events: all;
+}
+
+
+
+.Side-thumbnail{
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    width: 10rem;
+    border-radius: 5px;
+}
+
+.Side-Text{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.Side-Desc{
+    color: gray;
+    margin: 0px;
+}
+
+.Side-Desc-Active{
+    color: rgb(250, 248, 248);
+    margin: 0px;
+}
+
+.Side-Div-active{
+    display: flex;
+    gap: 10px;
+    background-color: rgb(146, 144, 144);
+    color: white;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.Side-Title{
+    font-size: 18px;
+    margin-bottom: 3px;
+}

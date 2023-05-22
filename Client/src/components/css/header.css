@@ -1,0 +1,140 @@
+.Header-Box{
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    width: 98%;
+    justify-content: space-between;
+    padding: 10px 20px 10px 10px;
+    background-color: rgb(86, 86, 93);
+    align-items: center;
+    z-index: 3;
+}
+
+.Nav-tab{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    font-weight: 500;
+    color:rgb(247, 243, 243);
+}
+
+.Png-logo{
+    aspect-ratio: 1/1;
+    width: 35px;
+    transition-duration: 1s;
+    z-index: 2;
+}
+
+.Logo-sec:hover .Png-logo{
+    transform: translateX(8rem);
+}
+
+.Logo-sec:hover .Name{
+    transform: translateX(-2rem);
+}
+
+.Logo-sec{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: fit-content;
+}
+
+.Name{
+    margin: 0px;
+    font-size: 18px;
+    color: white;
+    transition-duration: 1s;
+}
+
+.Nav-item{
+    margin: 0px;
+}
+
+.Nav-item-active{
+    margin: 0px;
+    background-color: white;
+    padding: 3px 5px 3px 5px;
+    border-radius: 5px;
+    color: black;
+}
+
+.Login-btn{
+    padding: 3px 10px 3px 10px;
+    border: none;
+    background-color: white;
+    border-radius: 3px;
+    font-weight: 600;
+    
+}
+
+.Login-btn:hover{
+    background-color: red;
+    color: white;
+}
+.User-img{
+    object-fit: cover;
+    aspect-ratio: 1/1;
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.Header-btn-sec{
+    display: flex;
+    align-items: center;
+}
+
+.User-profile{
+    width: fit-content;
+    position: fixed;
+    right: 10px;
+    top: 60px;
+    border-radius: 0px 0px 5px 5px;
+    background-color: white;
+}
+
+.User-profile>ul{
+    list-style: none;
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+}
+
+.LiUser{
+    padding: 10px;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.LiUser:hover{
+    background-color: red;
+    color: white;
+    border-radius: 0px 0px 5px 5px;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+@media only screen and (max-width:600px){
+    .Nav-tab{
+        display: none;
+    }
+    .Header-Box{
+        position: sticky;
+        top: 0px;
+        left: 0px;
+        display: flex;
+        width: 98%;
+        justify-content: space-between;
+        padding: 10px 0px 10px 10px;
+        background-color: rgb(86, 86, 93);
+        align-items: center;
+        z-index: 3;
+    }
+}

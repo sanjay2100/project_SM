@@ -1,0 +1,23 @@
+.Upload-box{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 30px;
+    padding: 20px;
+    box-shadow: 10px 10px 40px rgb(201, 221, 241);
+    width: 30rem;
+    gap: 20px;
+}
+
+.Upload-Outer{
+    display: flex;
+    width: 80rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.Text-box{
+    padding: 5px;
+    border: 1px solid rgb(191, 222, 249);
+}
+

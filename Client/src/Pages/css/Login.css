@@ -1,0 +1,114 @@
+.Login-outer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+}
+
+.Login-heading{
+    margin: 0px;
+    margin-bottom: 15px;
+}
+
+.Login-card{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding: 20px 10px 20px 10px;
+    text-align: left;
+    gap: 40px;
+    box-shadow: 10px 10px 40px rgb(204, 223, 241);
+    border-radius: 5px;
+}
+
+.Signup-card{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding: 20px 10px 20px 10px;
+    text-align: left;
+    gap: 40px;
+    box-shadow: 10px 10px 40px rgb(204, 223, 241);
+    border-radius: 5px;
+    animation: RotateSignup 1s  ease-out ;
+    animation-direction: alternate-reversex;
+}
+
+@keyframes Rotate {
+    0%{
+        transform: translateX(0px);
+    }
+    100%{
+        transform: translateX(-55rem);
+    }
+    
+}
+
+@keyframes RotateSignup {
+    0%{
+        transform:translateX(55rem)
+    }
+    100%{
+        transform: translateX(0rem);
+    }
+    
+}
+
+.Login-input{
+    padding: 10px;
+    border: 1px solid rgb(180, 207, 234);
+    border-radius: 5px;
+}
+
+.Login-input-pwd{
+    border: none;
+    width: 100%;
+    outline: none;
+}
+
+
+
+.Pwd-block{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgb(180, 207, 234);
+    border-radius: 5px;
+    padding: 10px;
+
+}
+
+.Login-input-pwd:focus{
+   outline: none;
+}
+
+.Pwd-block:focus{
+   border: 2px solid dodgerblue;
+}
+
+
+
+.Login-ptag{
+    margin: 0px;
+    font-size: 15px;
+}
+
+.Login-sec2{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    
+}
+.Login-sec3{
+    display: flex;
+    gap: 5px;
+    justify-content: flex-end;
+    
+}
+.Login-btn-inside{
+    background-color: red;
+    border: none;
+    padding: 5px;
+    font-weight: 600;
+    color: white;
+    border-radius: 5px;
+}

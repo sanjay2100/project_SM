@@ -1,0 +1,43 @@
+.Thumbnail-Dashboard{
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    width: 8rem; 
+}
+
+.Table-div{
+    width: 100%;
+}
+
+.Dashboard-Table{
+    width: 80rem;
+    border-radius: 10px;
+}
+
+
+
+.Dashboard-Table>thead>th{
+    padding: 20px;
+    background-color: red;
+    color: white;
+}
+
+.Dashboard-Table>thead{
+    border: 2px solid black;
+
+}
+
+.Dashboard-Table>tbody>tr>td{
+    border: 1px solid gray;
+}
+
+.Count-div{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 2px solid rgb(113, 111, 111);
+    border-radius: 5px;
+}
+
+.Dashboard-sec1{
+   margin: 10px ;
+}
